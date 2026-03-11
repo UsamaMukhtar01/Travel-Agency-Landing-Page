@@ -12,8 +12,8 @@ import TripBooking from './pages/TripBooking'
 function App() {
 
   return (
-    <div className="mx-3 md:mx-20 lg:mx-34">
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="mx-3 md:mx-20 lg:mx-32">
         <Header />
         <HeroContent />
         <Services />
@@ -22,8 +22,8 @@ function App() {
         <Partners />
         <SubscribeSection />
         <Footer />
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   )
 }
 

@@ -57,10 +57,10 @@ const Footer = () => {
     ];
 
     return (
-        <div className="flex flex-col gap-2 justify-between items-start md:items-center mt-[40px] lg:mt-[105px] mb-[50px] px-5">
+        <div className="flex flex-col gap-18 justify-between items-start md:items-center mt-[40px] lg:mt-[105px] mb-[50px] px-5">
             <div className="flex flex-col lg:flex-row gap-10 justify-between w-full">
-                <div className="">
-                    <FooterLogo />
+                <div className="flex flex-col gap-7">
+                    <FooterLogo/>
                     <span className="text-[13px] text-[#5E6282] font-[poppins] font-[400]">
                         Book your trip in minute, get full Control for much longer.
                     </span>
@@ -68,11 +68,11 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row gap-6 lg:gap-18 w-full justify-between items-start">
                     {footerLinks.map((item, index) => (
                         <div key={index} className="">
-                            <h1 className="text-[21px] text-start text-[#080809] font-[poppins] font-[700]">
+                            <h1 className="text-[21px] text-start text-[#080809] font-[poppins] font-[700] mb-6">
                                 {item.heading}
                             </h1>
                             {item.links.map((link, index) => (
-                                <Link key={index} to={link.path} className="block text-[18px] text-start text-[#5E6282] font-[poppins] font-[400]">
+                                <Link key={index} to={link.path} className="mb-3 block text-[18px] text-start text-[#5E6282] font-[poppins] font-[400]">
                                     {link.name}
                                 </Link>
                             ))}
