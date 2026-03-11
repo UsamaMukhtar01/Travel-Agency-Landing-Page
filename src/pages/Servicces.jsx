@@ -6,7 +6,7 @@ const Services = () => {
     const serviceData = [
         {
             img: <Weather />,
-            title: "Calculated Weather ",
+            title: "Calculated Weather",
             description: "Built Wicket longer admire do barton vanity itself do in it."
         },
         {
