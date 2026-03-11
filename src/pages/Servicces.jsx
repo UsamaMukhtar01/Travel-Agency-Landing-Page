@@ -1,5 +1,5 @@
 import { BestFlights, Customization, Weather } from "../assets/svgs"
-import localEvents from "../assets/localEvents.png"
+import localEvents from "../assets/LocalEvents.png"
 import ServicesCards from "../commons/ServicesCards";
 
 const Services = () => {
